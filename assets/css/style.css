@@ -1,0 +1,119 @@
+.btn-light:not(:disabled):not(.disabled).active {
+    color: #fff;
+    background-color: #28a745 !important;
+    border-color: #ded3bd;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+table>tbody {
+    cursor: pointer !important;
+}
+
+.entered:hover {
+    background-color: rgba(116, 231, 142, 0.3);
+}
+
+.select-readonly {
+    background: #eee;
+    pointer-events: none;
+    touch-action: none;
+}
+
+/***************************************************************************************| SCROLLBAR |***/
+
+::-webkit-scrollbar{
+    background-color: #999;
+    width: 10px;
+ 
+    
+}
+::-webkit-scrollbar-thumb{
+    background-color: #28a745;
+    width: 10px;
+    border-radius: 80px;
+
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #26fe846d;
+}
+
+/***************************************************************************************| PADRÃO DE CORES VERDES - TEXTOS |***/
+
+.text-green-2 {
+    color: #67e083;
+}
+
+.text-gradient-green {
+    background: linear-gradient(to right, #28a745, #166d2a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-green-2 {
+    background: linear-gradient(to right, #28a745, #91f7a9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/***************************************************************************************| PADRÃO DE CORES VERDES - BACKGROUND |***/
+.btn-light:not(:disabled):not(.disabled).active {
+    color: #fff;
+    background-color: #28a745 !important;
+    border-color: #ded3bd;
+}
+
+.bg-green-secondary {
+    background-color: #67f288;
+    text-align: 343a40;
+}
+
+/***************************************************************************************| TABLE OVERFLOW |***/
+
+table.table-overflow tbody {
+    display: block;
+    overflow-y: scroll;
+    background-color: #FFF;
+}
+
+table.table-overflow thead,
+table.table-overflow tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table.table-overflow thead {
+    width: calc(100% - 1em)
+}
+
+table.table-overflow {
+    width: 100%;
+    background-color: #F3EFE7;
+    border-radius: 0 !important;
+}
+
+.card-body.p-0>table.table.table-overflow>thead>tr>th:first-of-type,
+.card-body.p-0>table.table.table-overflow>tbody>tr>td:first-of-type {
+    padding-left: 0.8rem !important;
+}
+
+.bb-chart-lines {
+    fill: none;
+}
+
+.bg-plan-1 {
+    background-color: #FFA500 !important;
+}
+
+.bg-plan-2 {
+    background-color: #FF8C00 !important;
+}
+
+.bg-plan-3 {
+    background-color: #FF4500 !important;
+}
+
+.Div1,.Div2,.Div3{display:none;}
